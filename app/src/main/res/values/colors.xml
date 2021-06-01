@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03686D</color>
+    <color name="colorPrimaryDark">#00464E</color>
+    <color name="colorAccent">#FF7F34</color>
+    <color name="colorTextTV">#FFFFFF</color>
+    <color name="colorTextET">#dee0e0</color>
+    <color name="colorTripActive">#2a9146</color>
+    <color name="actionbar_bg">#8151D8</color>
+    <color name="color_end">#FF725E</color>
+    <color name="colorAlarmOn">#76FF03</color>
+    <color name="colorAlarmOff">#FF3D00</color>
+
+    <color name="list_color_1">#EDFAE3</color>
+    <color name="list_color_2">#FFCED6</color>
+    <color name="list_color_3">#FFE5D9</color>
+    <color name="list_color_4">#C7F2A7</color>
+    <color name="list_color_5">#F9EDCC</color>
+    <color name="list_color_6">#D5F2E3</color>
+    <color name="list_color_7">#B7FFD8</color>
+    <color name="list_color_8">#D5BEE4</color>
+    <color name="list_color_9">#DDF9C1</color>
+    <color name="list_color_10">#E6BCDD</color>
+    <color name="list_color_11">#DBFAFA</color>
+    <color name="toolbar_color_control_normal">#FFF</color>
+    <color name="yellow">#ECE398</color>
+    <color name="red">#FA4D4D</color>
+</resources>

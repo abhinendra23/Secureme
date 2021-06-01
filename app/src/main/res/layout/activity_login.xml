@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+    android:background="#fff"
+    tools:context=".LoginActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/hide_ll"
+            android:visibility="invisible"
+            android:gravity="center_vertical|center_horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            >
+            <com.steelkiwi.library.SlidingSquareLoaderView
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:sslv_corner_radius="5dp"
+                app:sslv_margin="7dp"
+                app:sslv_end_gradient_color="@color/end_gradient_color"
+                app:sslv_start_gradient_color="@color/start_gradient_color"
+                app:sslv_background_color="#fff"
+                app:sslv_square_size="@dimen/square_size"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Loading...."
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/imprima"
+                android:textStyle="bold"
+                android:textSize="26sp"
+                android:textColor="#FF5722"
+                />
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:id="@+id/login_ll"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="220dp"
+                        android:orientation="vertical"
+                        android:layout_margin="10dp"
+                        android:paddingTop="30dp"
+                        android:layout_alignParentLeft="true"
+                        >
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:text="SecureMe"
+                        android:textSize="35dp"
+                        android:textColor="#FF725E"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/imprima"
+                        />
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+
+                            android:layout_marginLeft="20dp"
+                            android:text="An App for social distancing "
+                            android:textSize="25dp"
+                            android:fontFamily="@font/imprima"
+                            />
+
+                    </LinearLayout>
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="170dp"
+                        android:layout_height="220dp"
+
+                        android:src="@drawable/login_image"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        />
+
+
+                </RelativeLayout>
+               
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="@font/kotta_one"
+                    android:text="Login With Email"
+                    android:textSize="22sp"
+                    android:textColor="#FF725E"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    app:boxCornerRadiusBottomEnd="5dp"
+                    app:boxCornerRadiusBottomStart="5dp"
+                    app:boxCornerRadiusTopEnd="5dp"
+                    app:boxCornerRadiusTopStart="5dp"
+                    app:boxStrokeWidth="1dp"
+                    app:boxStrokeColor="#000"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    >
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/loginEmail"
+                        android:hint="Enter your Email"
+                        android:fontFamily="@font/imprima"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    app:boxCornerRadiusBottomEnd="5dp"
+                    app:boxCornerRadiusBottomStart="5dp"
+                    app:boxCornerRadiusTopEnd="5dp"
+                    app:boxCornerRadiusTopStart="5dp"
+                    app:boxStrokeWidth="1dp"
+                    app:boxStrokeColor="#000"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    >
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter Password"
+                        android:id="@+id/loginPassword"
+                        android:fontFamily="@font/imprima"
+                        android:inputType="textPassword"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Login"
+                    android:id="@+id/loginButton"
+                    android:textSize="19sp"
+                    android:textColor="#fff"
+                    android:backgroundTint="#FF725E"
+                    android:background="@drawable/corner"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:layout_marginTop="40dp"
+                    />
+
+                <TextView
+                    android:id="@+id/registerswipe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="50dp"
+                    android:fontFamily="@font/kotta_one"
+
+                    android:onClick="RegisterClick"
+                    android:text="Not Registered yet? Register Now"
+                    android:textColor="#FF725E"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

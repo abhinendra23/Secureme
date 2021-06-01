@@ -1,0 +1,97 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">SecureMe</string>
+    <string name="title_activity_maps">Secureme Trip Active</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="option_get_place">Get place</string>
+    <string name="pick_place">Choose a place</string>
+    <string name="nearby_devices">Nearby Devices</string>
+
+    <string name="title_connected_to">connected to
+        <xliff:g id="device_name">%1$s</xliff:g>
+    </string>
+
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="starting_greeting">"Hello!</string>
+    <string name="starting_prompt">Please enter a username</string>
+    <string name="starting_username">username</string>
+    <string name="starting_getting_data">Getting data from the server....</string>
+    <string name="button_next">Next</string>
+    <string name="welcome_return_user_greeting">Welcome back,</string>
+    <string name="welcome_new_user_greeting">Welcome,</string>
+    <string name="welcome_new_user_prompt">Please give a few details about yourself</string>
+    <string name="welcome_new_user_occupation">Occupation</string>
+    <string name="welcome_new_user_occupation_hint">eg. Student</string>
+    <string name="welcome_new_user_age">Age</string>
+    <string name="welcome_new_user_gender">Gender</string>
+    <string name="welcome_new_user_gender_hint">M/F/Other</string>
+    <string name="welcome_new_user_condition">Pre-exisiting condtion(s) (if any)</string>
+    <string name="welcome_new_user_condition_hint">NA if not applicable</string>
+    <string name="welcome_new_user_privacy">Don\'t worry, we won\'t share any identifiable information :)</string>
+    <string name="main_going_somewhere">Going Somewhere?</string>
+    <string name="main_start_trip">Start Trip</string>
+    <string name="maps_trip_active">Trip Active</string>
+    <string name="maps_end_trip">End Trip</string>
+    <string name="end_trip_greeting">Trip Ended!</string>
+    <string name="end_trip_details">Trip details</string>
+    <string name="end_trip_duration">Trip duration</string>
+    <string name="end_trip_number">Number of people in proximity</string>
+    <string name="end_trip_score">Social Distancing Score</string>
+    <string name="end_trip_score_hint">Lesser score is better!</string>
+    <string name="end_trip_places_visited">Places Visited</string>
+    <string name="stats_getting_data">Getting Data from the server....</string>
+    <string name="stats_your_cum_score">Your Cumulative Score</string>
+    <string name="stats_top">You are in the top</string>
+    <string name="stats_age_group">of your age group</string>
+    <string name="stats_gender_group">of your gender group</string>
+    <string name="stats_occupation_group">of your occupation group</string>
+    <string name="stats_condition_group">of people with your medical condition</string>
+
+
+    <string name="question1">Q.1: Do you have any travel records to countries like united states of america, china or any European Country
+    in the past 4 weeks?</string>
+    <string name="question2">Q.2: Have you been sick lately?</string>
+    <string name="question3">Q.3: Are you caring of someone who is ill</string>
+    <string name="question4">Q.4: Do you have a heart disease or diabetes?</string>
+    <string name="question5">Q.5: Do you have any respiratory illness?</string>
+    <string name="question6">Q.6: Do you have symptoms like dry cough, fever or difficulty in breathing?</string>
+    <string name="question7">Q.7: Have you consulted a doctor in the past 2 weeks?</string>
+
+
+    <string name="disclaimer">The purpose of this self-assessment is to help you make decisions about seeking 
+    appropriate medical care.</string>
+
+    <string name="disclaimer1">This system is not intended for the diagnosis or treatment of disease or other condition
+    ,including COVID-19.</string>
+    <string name="disclaimer2">This system does not replace the judgement of healthcare professionals or the performance of 
+    any clinical assessment.</string>
+
+    <string name="disclaimer3">To provide information on the right level of care, we are going to ask you a series of questions.</string>
+
+    <string name="agree">I Agree</string>
+    <string name="safe">Please stay indoors and if you come in contact with anyone infected please
+    visit a doctor and follow the self-isolation.</string>
+
+    <string name="isolate">Stay in your room except to get medical care.Cover your coughs and sneezes.
+    Clean your hands often.</string>
+
+    <string name="suspected">Immediate medical attention is needed.Tell the medical personal if you have been contact with someone
+    with COVID-19 or if you have recently been to an area where COVID-19 is spreading.</string>
+</resources>
+
+  

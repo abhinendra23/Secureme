@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".SafetyMeasures">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <androidx.appcompat.widget.Toolbar
+
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#Fff"
+            app:title="Covid Safety Measures"
+            android:layout_alignParentTop="true"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:elevation="4dp"
+            app:titleTextColor="#333232">
+        </androidx.appcompat.widget.Toolbar>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="372dp"
+        android:padding="10dp"
+        android:src="@drawable/safety_measures1"
+        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:padding="10dp"
+            android:src="@drawable/safety_measures2"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/safety_measures3"
+            android:padding="10dp"
+            android:layout_marginBottom="50dp"
+            />
+    </LinearLayout>
+</ScrollView>

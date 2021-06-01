@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zing.secureme">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/new_splash_logo_"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.zing.secureme.AssessmentResult"></activity>
+        <activity android:name="com.zing.secureme.Disclaimer" />
+        <activity android:name="com.zing.secureme.SelfAssessmentActivity" />
+        <activity android:name="com.zing.secureme.SafetyMeasures" />
+        <activity android:name="com.zing.secureme.HistoryActivity" />
+        <activity android:name="com.zing.secureme.RegisterActivity" />
+        <activity android:name="com.zing.secureme.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zing.secureme.StatsActivity" />
+        <activity android:name="com.zing.secureme.EndTrip" />
+        <activity android:name="com.zing.secureme.MainActivity" />
+        <activity android:name="com.zing.secureme.WelcomeNewUser" />
+        <activity android:name="com.zing.secureme.WelcomeReturnUser" />
+        <activity android:name="com.zing.secureme.StartingActivity" />
+        <activity
+            android:name="com.zing.secureme.SplashScreen"
+            android:theme="@style/SplashTheme" />
+        <activity
+            android:name="com.zing.secureme.views.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zing.secureme.MapsActivityCurrentPlace"
+            android:label="@string/title_activity_maps" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBpPpy-m7IQNqxfwwPQEmIf5EC_7QIU0qo" /> <!-- The API key for Google Maps-based APIs. -->
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <receiver
+            android:name="com.zing.secureme.receivers.BootReceiver"
+            android:enabled="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+                <!-- For HTC devices -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.zing.secureme.receivers.AlarmReceiver"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service android:name="com.zing.secureme.BluetoothService" />
+        <service android:name="com.zing.secureme.ServerFetchService" />
+        <service android:name="com.zing.secureme.ServerStatsService" />
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+</manifest>

@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelfAssessmentActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorAccent"
+            android:id="@+id/toolbar"
+            app:title="Self Assessment Test"
+            android:layout_alignParentTop="true"
+            android:theme="@style/ToolbarTheme"
+            app:elevation="4dp"
+            app:titleTextColor="#fff"
+            app:titleMarginStart="30dp"/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/question1"
+            android:textSize="18dp"
+            android:fontFamily="@font/imprima"
+            />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/q1"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/y1"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/imprima"
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:id="@+id/n1"
+                android:fontFamily="@font/imprima"
+                android:textSize="20dp"
+                />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/question2"
+            android:textSize="18dp"
+            android:fontFamily="@font/imprima"
+            />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/q2"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:id="@+id/y2"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/imprima"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:id="@+id/n2"
+                android:fontFamily="@font/imprima"
+                android:textSize="20dp"
+                />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/question3"
+            android:textSize="18dp"
+            android:fontFamily="@font/imprima"
+            />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/q3"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/y3"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/imprima"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:id="@+id/n3"
+                android:fontFamily="@font/imprima"
+                android:textSize="20dp"
+                />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/question4"
+            android:textSize="18dp"
+            android:fontFamily="@font/imprima"
+            />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/q4"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/imprima"
+                android:id="@+id/y4"
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:id="@+id/n4"
+                android:fontFamily="@font/imprima"
+                android:textSize="20dp"
+                />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/question5"
+            android:textSize="18dp"
+            android:fontFamily="@font/imprima"
+            />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/q5"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/imprima"
+                android:textSize="20dp"
+                android:id="@+id/y5"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:id="@+id/n5"
+                android:fontFamily="@font/imprima"
+                android:textSize="20dp"
+                />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/question6"
+            android:textSize="18dp"
+            android:fontFamily="@font/imprima"
+            />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/q6"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/imprima"
+                android:id="@+id/y6"
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:fontFamily="@font/imprima"
+                android:textSize="20dp"
+                android:id="@+id/n6"
+                />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/question7"
+            android:textSize="18dp"
+            android:fontFamily="@font/imprima"
+            />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="50dp"
+            android:id="@+id/q7"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/imprima"
+                android:textSize="20dp"
+                android:id="@+id/y7"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:fontFamily="@font/imprima"
+                android:textSize="20dp"
+                android:id="@+id/n7"
+                />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:onClick="onSubmitClick"
+                android:background="@drawable/corner"
+                android:backgroundTint="@color/colorAccent"
+                android:layout_marginLeft="50dp"
+                android:textColor="#fff"
+                ></Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+
+                android:textColor="@color/colorAccent"
+                android:layout_marginLeft="50dp"
+                android:onClick="onCancelClick"
+                android:background="@drawable/cancel_corner"
+                ></Button>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

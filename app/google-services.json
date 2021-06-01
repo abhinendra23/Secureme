@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "436296617112",
+    "project_id": "me-79ae3",
+    "storage_bucket": "me-79ae3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436296617112:android:1b0af1f3f06f1f1cb5d4ed",
+        "android_client_info": {
+          "package_name": "com.zing.secureme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436296617112-hnlk81kf1o347eho4gl9j6pd825ofie6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbGdStYXtKsL4dFbF9jWEdUqZZKG3Nsy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436296617112-hnlk81kf1o347eho4gl9j6pd825ofie6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
